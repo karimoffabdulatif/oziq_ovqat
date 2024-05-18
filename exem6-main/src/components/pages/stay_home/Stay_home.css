@@ -1,0 +1,56 @@
+.stay {
+  background-image: url(../../img/Section.jpg);
+  max-width: 1586px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 20px;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 20px;
+}
+.stay_text {
+  padding-left: 25px;
+  padding-top: 60px;
+}
+.stay_text h1 {
+  color: rgb(37, 61, 78);
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.stay_text p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.stay_img {
+  padding-top: 30px;
+}
+
+@media (max-width: 1270px) {
+  .stay {
+    background-image: url(../../img/Section.jpg);
+    max-width: 800px;
+    margin: 0 auto;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .ban {
+    width: 370px;
+  }
+}

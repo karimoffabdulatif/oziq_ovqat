@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(./components/Font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(./components/Font/Lato/Lato-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.continer {
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

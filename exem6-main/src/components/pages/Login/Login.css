@@ -1,0 +1,67 @@
+.login {
+  width: 400px;
+  height: 403.75px;
+  box-sizing: border-box;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: rgb(255, 255, 255);
+  margin-top: 180px;
+}
+.l_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.sign_up_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+.inp {
+  width: 338px;
+  height: 44.38px;
+  box-sizing: border-box;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+
+  background: rgb(255, 255, 255);
+}
+label p {
+  color: rgb(68, 68, 68);
+  font-family: Segoe UI;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sub_btn {
+  width: 80.11px;
+  height: 40px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border: 0;
+  background: rgb(59, 183, 126);
+}
+.btnlar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.inp {
+  padding: 10px;
+}
